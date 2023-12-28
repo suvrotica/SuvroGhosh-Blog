@@ -8,19 +8,22 @@
 			<h1
 				class="mb-4 max-w-2xl text-4xl font-extrabold leading-none tracking-tight md:text-5xl xl:text-6xl dark:text-white"
 			>
-				Welcome to My Personal Blog
+				Welcome to My Quixotic Blog
 			</h1>
 			<p
 				class="mb-6 max-w-2xl font-light text-neutral-500 md:text-lg lg:mb-8 lg:text-xl dark:text-neutral-400"
 			>
-				I couldn't just flippantly, verbosely and ineloquently describe this blog as a scratchpad of
-				thoughts, a much sought-after extension of my embarrassing tangle of nerves, unrelated
-				fancies and figments strewn around and rattling loose in it, collectibles from the waste
-				basket scraps that should have seen a shredder, or, somewhat more crudely, everything about
-				anything. But these are exactly what I always wanted my blog to be. I'm not a prisoner to
-				the usual boundaries that limit most people, and I wanted a place where a weirdo like me
-				could find a way to read about the weird wanderings of a profligate traveling mind and not
-				feel weird.
+				Although flippant, this blog is a scratchpad of thoughts, a much-sought-after extension of
+				my embarrassing tangle of nerves, unrelated fancies and figments strewn around and rattling
+				loose in it, collectibles from the waste basket scraps that should have seen a shredder, or,
+				somewhat more crudely, everything about anything. I'm not a prisoner to the usual boundaries
+				that limit most people, and I wanted a place where the diarist in me could jot down the
+				wanderings of his profligately traveling mind and not feel unwelcome. I presume I would
+				leave the world richer in nonsense than anything of substance. But here I explore, when I
+				still can, the vast and forbidden realms of human feats and foibles, fucks and farts, feces
+				and fraternities. So whether you're a seasoned simulationist or a curious commoner, an
+				android or an amateur, a ponderer or a pragmatist, join me in the infinite mosaic of
+				collective nonsense we can explore.
 			</p>
 			<a
 				href="/latest-post"

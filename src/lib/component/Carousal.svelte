@@ -1,10 +1,11 @@
 <script lang="ts">
 	import { fade } from 'svelte/transition';
-
+	import { Img } from 'flowbite-svelte';
 	const images = [
 		'https://wqz50k0spm0gyalr.public.blob.vercel-storage.com/pic1-HXbEj2b27fe27ZWisKCBVKsuahm9zo.png',
 		'https://wqz50k0spm0gyalr.public.blob.vercel-storage.com/pic2-zHOvTA5yt5xxYte3mEtElM85RjUlXy.png',
-		'https://wqz50k0spm0gyalr.public.blob.vercel-storage.com/pic3-sCYKbXlTpOwJRP0yX20WHnmhXz8G0F.png'
+		'https://wqz50k0spm0gyalr.public.blob.vercel-storage.com/pic3-sCYKbXlTpOwJRP0yX20WHnmhXz8G0F.png',
+		'https://wqz50k0spm0gyalr.public.blob.vercel-storage.com/pic4-OzLZcCKm2uSMDxu5urN6LcMuVOf9Lh.png'
 	];
 	import { onMount } from 'svelte';
 	onMount(() => {
@@ -23,14 +24,14 @@
 <div class="carousel-container relative w-full">
 	<!-- Adjust width and height as needed -->
 	{#each images as image, index}
-		<img
-			src={image}
-			alt={`Image ${index}`}
+		<li
 			class="carousel-image"
 			class:hidden={index !== currentIndex}
 			in:fade={{ duration: 300 }}
 			out:fade={{ duration: 300 }}
-		/>
+		>
+			<Img src={image} alt={`Image ${index}`} />
+		</li>
 	{/each}
 </div>
 
