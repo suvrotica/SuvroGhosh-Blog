@@ -8,7 +8,7 @@
 			<h1
 				class="mb-4 max-w-2xl text-4xl font-extrabold leading-none tracking-tight md:text-5xl xl:text-6xl dark:text-white"
 			>
-				Welcome to My Quixotic Blog
+				A Quixotic Blog
 			</h1>
 			<p
 				class="mb-6 max-w-2xl font-light text-neutral-500 md:text-lg lg:mb-8 lg:text-xl dark:text-neutral-400"

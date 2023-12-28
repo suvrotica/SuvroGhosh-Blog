@@ -1,15 +1,11 @@
-<header>
-	<nav class="border-neutral-200 bg-white px-4 py-2.5 lg:px-6 dark:bg-neutral-800">
-		<div class="mx-auto flex max-w-screen-xl flex-wrap items-center justify-between">
-			<a href="./" class="flex items-center">
-				<span class="self-center whitespace-nowrap bg-white text-xl font-thin dark:text-black"
-					>&nbsp;SUVRO GHOSH&nbsp;
-				</span>
+<script>
+	import Logo from './Logo.svelte';
+</script>
 
-				<span class="self-center whitespace-nowrap bg-black text-xl font-semibold dark:text-white"
-					><pre> blog </pre>
-				</span>
-			</a>
+<header>
+	<nav class="border-neutral-200 bg-white px-4 py-2.5 lg:px-6 dark:bg-neutral-900">
+		<div class="mx-auto flex max-w-screen-xl flex-wrap items-center justify-between">
+			<Logo />
 			<div class="flex items-center lg:order-2">
 				<a
 					href="./"
