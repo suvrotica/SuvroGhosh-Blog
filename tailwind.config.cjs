@@ -7,7 +7,7 @@ const config = {
 		extend: {}
 	},
 
-	plugins: []
+	plugins: [require('flowbite-typography')]
 };
 
 module.exports = config;
