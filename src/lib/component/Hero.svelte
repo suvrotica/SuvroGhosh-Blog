@@ -11,7 +11,7 @@
 				A Quixotic Blog
 			</h1>
 			<p
-				class="mb-6 max-w-2xl font-light text-neutral-500 md:text-lg lg:mb-8 lg:text-xl dark:text-neutral-400"
+				class="mb-6 max-w-2xl text-justify font-light text-neutral-500 md:text-lg lg:mb-8 lg:text-xl dark:text-neutral-400"
 			>
 				Although flippant, this blog is a scratchpad of thoughts, a much-sought-after extension of
 				my embarrassing tangle of nerves, unrelated fancies and figments strewn around and rattling
