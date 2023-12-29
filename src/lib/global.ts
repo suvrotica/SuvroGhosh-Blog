@@ -1,3 +1,5 @@
+export const text_bg_color_style =
+	'font-light text-neutral-500 dark:text-neutral-400 bg-neutral-400 dark:bg-neutral-950';
 export const p_style =
 	'mb-6 max-w-2xl text-justify font-light text-neutral-500 md:text-lg lg:mb-8 lg:text-xl dark:text-neutral-400';
 export const a_style =

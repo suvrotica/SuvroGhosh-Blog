@@ -31,16 +31,3 @@
 		</li>
 	{/each}
 </div>
-
-<style>
-	.carousel-container {
-		width: 70%; /* Adjust as needed */
-	}
-	.carousel-image {
-		position: absolute;
-		top: 0;
-		left: 0;
-
-		object-fit: cover;
-	}
-</style>
