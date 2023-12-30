@@ -20,13 +20,10 @@
 	<!-- Navigation -->
 	<ul class={ulStyle}>
 		<li>
-			<a href="/about" class={`${a_style}`}>About</a>
+			<a href="/home" class={`${a_style}`}>About</a>
 		</li>
 		<li>
-			<a href="/contact" class={`${a_style}`}>Contact</a>
-		</li>
-		<li>
-			<a href="/rss.xml" target="_blank" class={`${a_style}`}>RSS</a>
+			<a href="/blog" class={`${a_style}`}>Contact</a>
 		</li>
 	</ul>
 	<!-- Theme Toggle Button -->
