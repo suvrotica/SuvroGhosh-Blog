@@ -20,10 +20,10 @@
 	<!-- Navigation -->
 	<ul class={ulStyle}>
 		<li>
-			<a href="/home" class={`${a_style}`}>About</a>
+			<a href="/" class={`${a_style}`}>Home</a>
 		</li>
 		<li>
-			<a href="/blog" class={`${a_style}`}>Contact</a>
+			<a href="/blog" class={`${a_style}`}>Blog</a>
 		</li>
 	</ul>
 	<!-- Theme Toggle Button -->
