@@ -1,4 +1,4 @@
-<a href="./" class="flex items-center">
+<a href="./" class="flex items-center pl-4">
 	<span
 		class="self-center whitespace-nowrap bg-white text-sm font-thin text-black dark:bg-neutral-900 dark:text-white"
 		>&nbsp;SUVRO GHOSH&nbsp;
