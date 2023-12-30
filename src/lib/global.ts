@@ -1,14 +1,10 @@
 import { dev } from '$app/environment';
 export const navStyle = 'flex flex-row justify-between m-1 bg-neutral-200 dark:bg-neutral-800';
 export const ulStyle = 'flex flex-row gap-2 mt-1 ';
-export const liStyle = 'text-neutral-800 hover:text-neutral-600';
-export const buttonStyle =
-	'mt-4 lg:mt-0 bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded';
-export const linkStyle = 'text-blue-600 hover:text-blue-700';
 export const btnClass =
 	'text-white dark:text-gray-400 bg-gray-100 dark:bg-gray-800 hover:bg-gray-100 dark:hover:bg-gray-700 rounded-lg text-sm border-2 border-neutral-400 dark:border-neutral-600   px-3 py-3 m-1';
 export const text_bg_color_style =
-	'font-light text-neutral-500 hover:text-neutral-600 dark:text-neutral-400 dark:hover:text-neutral-300 bg-neutral-400 hover:bg-neutral-500 dark:bg-neutral-950 dark:hover:bg-neutral-900';
+	'font-light text-neutral-500 hover:text-neutral-600 dark:text-neutral-400 dark:hover:text-neutral-300 bg-neutral-100 hover:bg-neutral-500 dark:bg-neutral-950 dark:hover:bg-neutral-900';
 
 export const p_style =
 	'mb-6 max-w-2xl text-justify font-light text-neutral-500 md:text-lg lg:mb-8 lg:text-xl dark:text-neutral-400';

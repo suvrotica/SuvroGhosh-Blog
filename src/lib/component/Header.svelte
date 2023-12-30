@@ -1,15 +1,5 @@
 <script lang="ts">
-	import {
-		title,
-		navStyle,
-		ulStyle,
-		liStyle,
-		buttonStyle,
-		linkStyle,
-		a_style,
-		mode_style,
-		btnClass
-	} from '$lib/global';
+	import { navStyle, ulStyle, a_style, btnClass } from '$lib/global';
 	import Logo from './Logo.svelte';
 	import { DarkMode } from 'flowbite-svelte';
 </script>
