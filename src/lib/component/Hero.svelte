@@ -3,7 +3,7 @@
 	import { p_style, a_style, h1_style } from '$lib/global';
 </script>
 
-<section class="bg-white dark:bg-neutral-900">
+<section class="mb-8 bg-white dark:bg-neutral-900">
 	<div class="mx-auto grid max-w-screen-xl px-4 py-8 lg:grid-cols-12 lg:gap-8 lg:py-16 xl:gap-0">
 		<div class="mr-auto place-self-center lg:col-span-7">
 			<h1 class={h1_style}>A Quixotic Blog</h1>

@@ -55,7 +55,9 @@
 		<hr class="my-6 border-neutral-200 sm:mx-auto lg:my-8 dark:border-neutral-700" />
 		<div class="sm:flex sm:items-center sm:justify-between">
 			<span class="text-sm text-neutral-500 sm:text-center dark:text-neutral-400">
-				💩 2024 Suvro the Ghosh who Shits
+				💩
+				{new Date().toLocaleDateString(undefined, { month: 'long', year: 'numeric' }) + ' '}Suvro
+				the Ghosh who Shits
 			</span>
 			<div class="mt-4 flex space-x-6 sm:mt-0 sm:justify-center">
 				<!-- Update these with your social media or relevant links -->

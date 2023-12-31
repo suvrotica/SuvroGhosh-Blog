@@ -6,4 +6,3 @@
 
 <PostCard />
 <Hero />
-<Blog />
