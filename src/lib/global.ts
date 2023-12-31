@@ -1,5 +1,6 @@
 import { dev } from '$app/environment';
-export const navStyle = 'flex flex-row justify-between m-1 bg-neutral-200 dark:bg-neutral-800';
+export const navStyle =
+	'flex flex-row justify-between m-1 bg-zinc-100 border-2 border-zinc-200  dark:bg-zinc-950 dark:border-zinc-800 ';
 export const ulStyle = 'flex flex-row gap-2 mt-1 ';
 export const btnClass =
 	'text-white dark:text-gray-400 bg-gray-100 dark:bg-gray-800 hover:bg-gray-100 dark:hover:bg-gray-700 rounded-lg text-sm border-2 border-neutral-400 dark:border-neutral-600   px-3 py-3 m-1';
@@ -9,7 +10,7 @@ export const text_bg_color_style =
 export const p_style =
 	'mb-6 max-w-2xl text-justify font-light text-neutral-500 md:text-lg lg:mb-8 lg:text-xl dark:text-neutral-400';
 export const a_style =
-	'inline-flex items-center justify-center rounded-md border border-neutral-300 px-1  text-center text-base font-light text-neutral-900 bg-neutral-200 dark:bg-neutral-800 hover:bg-neutral-100 focus:ring-4 focus:ring-neutral-100 dark:border-neutral-900 dark:text-white dark:hover:bg-neutral-700 dark:focus:ring-neutral-800';
+	'inline-flex items-center justify-center rounded-sm border border-neutral-300 px-1  text-center text-base font-light text-neutral-900 bg-neutral-200 dark:bg-neutral-800 hover:bg-neutral-100 focus:ring-4 focus:ring-neutral-100 dark:border-neutral-900 dark:text-white dark:hover:bg-neutral-700 dark:focus:ring-neutral-800';
 export const h1_style =
 	'mb-4 max-w-2xl text-4xl font-extrabold leading-none tracking-tight md:text-5xl xl:text-6xl dark:text-white';
 export const mode_style =
