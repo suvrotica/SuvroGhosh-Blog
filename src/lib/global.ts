@@ -9,7 +9,7 @@ export const btnClass =
 export const text_bg_color_style =
 	'font-light text-neutral-500 hover:text-neutral-600 dark:text-neutral-400 dark:hover:text-neutral-300 bg-neutral-100 hover:bg-neutral-500 dark:bg-neutral-950 dark:hover:bg-neutral-900';
 export const preStyle =
-	'text-md my-auto rounded-md bg-neutral-800 px-2 py-0 font-bold text-neutral-200 shadow-lg shadow-neutral-800 dark:shadow-lg dark:shadow-neutral-600';
+	'text-md my-auto rounded-md dark:bg-neutral-800 px-2 py-0 font-bold text-neutral-800 bg-neutral-200 dark:text-neutral-200 shadow-lg shadow-neutral-800 dark:shadow-lg dark:shadow-neutral-600';
 export const p_style =
 	'mb-6 max-w-2xl text-justify font-light text-neutral-500 md:text-lg lg:mb-8 lg:text-xl dark:text-neutral-400';
 export const a_style =
