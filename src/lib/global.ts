@@ -1,6 +1,6 @@
 import { dev } from '$app/environment';
 export const svgStyle =
-	'my-2 -mr-2 ml-2 h-auto w-1/3  bg-neutral-100 p-0 shadow-lg md:w-1/6 lg:w-1/6';
+	'my-2 -mr-2 ml-2 h-auto w-1/5 rounded-sm bg-neutral-100 p-0 shadow-md dark:shadow-lg shadow-neutral-600 dark:shadow-neutral-600 ';
 export const navStyle =
 	'flex flex-row justify-between m-2 bg-zinc-100 rounded-md border-2 border-neutral-400  dark:bg-zinc-950 dark:border-zinc-800 ';
 export const ulStyle = 'flex flex-row gap-2 mt-1 ';
@@ -9,7 +9,7 @@ export const btnClass =
 export const text_bg_color_style =
 	'font-light text-neutral-500 hover:text-neutral-600 dark:text-neutral-400 dark:hover:text-neutral-300 bg-neutral-100 hover:bg-neutral-500 dark:bg-neutral-950 dark:hover:bg-neutral-900';
 export const preStyle =
-	'text-md my-auto rounded-md bg-neutral-800 px-2 py-0 font-bold text-neutral-200 shadow-lg shadow-neutral-800';
+	'text-md my-auto rounded-md bg-neutral-800 px-2 py-0 font-bold text-neutral-200 shadow-lg shadow-neutral-800 dark:shadow-lg dark:shadow-neutral-600';
 export const p_style =
 	'mb-6 max-w-2xl text-justify font-light text-neutral-500 md:text-lg lg:mb-8 lg:text-xl dark:text-neutral-400';
 export const a_style =
