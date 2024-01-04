@@ -1,6 +1,6 @@
 import { dev } from '$app/environment';
 export const svgStyle =
-	'my-2 -mr-2 ml-2 h-auto w-[170px] rounded-sm bg-neutral-100 p-0 shadow-md dark:shadow-lg shadow-neutral-600 dark:shadow-neutral-600 ';
+	'my-2 -mr-2  h-auto w-[150px] rounded-sm bg-neutral-100 p-0 shadow-md dark:shadow-lg shadow-neutral-600 dark:shadow-neutral-600 ';
 export const navStyle =
 	'flex flex-row justify-between m-2 bg-zinc-100 rounded-md border-2 border-neutral-400  bg-gradient-to-r dark:from-neutral-400 dark:to-bg-neutral-950 from-neutral-300 to-bg-neutral-100 dark:bg-zinc-950 dark:border-zinc-800 ';
 export const ulStyle = 'flex flex-row gap-2 mt-1 ';
