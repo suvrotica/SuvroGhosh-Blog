@@ -97,11 +97,7 @@ export const p_style = generateStyle([
 	baseStyles.text,
 	baseStyles.font,
 	'p-2',
-	'mb-6',
-
-	'md:text-lg',
-	'lg:mb-8',
-	'lg:text-xl'
+	'md:text-base'
 ]);
 
 export const a_style = generateStyle([
