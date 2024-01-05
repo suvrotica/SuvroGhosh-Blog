@@ -7,10 +7,10 @@ type BaseStyle = {
 
 // Base styles with an index signature
 const baseStyles: BaseStyle = {
-	shadow: 'shadow-md dark:shadow-lg',
+	shadow: 'shadow-md dark:shadow-lg shadow-neutral-800',
 	rounded: 'rounded-md',
-	border: 'border-2 border-neutral-400 dark:border-neutral-800',
-	text: 'text-neutral-800 dark:text-neutral-200 text-xl',
+	border: 'border-[1px] border-neutral-400 dark:border-neutral-800',
+	text: 'text-neutral-800 dark:text-neutral-100 text-thin text-sm',
 	bg: 'bg-neutral-100 dark:bg-neutral-800',
 	grad1:
 		'bg-gradient-to-r from-neutral-300 to-bg-neutral-100 dark:from-neutral-400 dark:to-bg-neutral-950',
@@ -40,8 +40,7 @@ export const svgStyle = generateStyle([
 	'rounded-sm',
 	'bg-neutral-100',
 	'p-0',
-	baseStyles.shadow,
-	'shadow-neutral-600'
+	baseStyles.shadow
 ]);
 
 export const navStyle = generateStyle([
@@ -89,10 +88,8 @@ export const preStyle = generateStyle([
 	baseStyles.font,
 	'px-2',
 	'py-0',
-	'font-bold',
 	'bg-neutral-200',
-	baseStyles.shadow,
-	'shadow-neutral-800'
+	baseStyles.shadow
 ]);
 
 export const p_style = generateStyle([
@@ -108,20 +105,17 @@ export const p_style = generateStyle([
 
 export const a_style = generateStyle([
 	'inline-flex',
-	'items-center',
 	'justify-center',
 	baseStyles.rounded,
 	baseStyles.border,
 	'px-1',
-	'text-center',
-	'text-base',
 	baseStyles.font,
 	baseStyles.text,
-	baseStyles.bg,
+	baseStyles.grad1,
 	baseStyles.hover,
+	baseStyles.border,
 	'focus:ring-4',
 	'focus:ring-neutral-100',
-	'dark:border-neutral-900',
 	'dark:hover:bg-neutral-700',
 	'dark:focus:ring-neutral-800',
 	'my-3'
