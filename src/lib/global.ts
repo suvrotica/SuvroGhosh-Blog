@@ -9,13 +9,13 @@ type BaseStyle = {
 const baseStyles: BaseStyle = {
 	shadow: 'shadow-md dark:shadow-lg',
 	rounded: 'rounded-md',
-	border: 'border-2',
+	border: 'border-2 border-neutral-400 dark:border-neutral-800',
 	text: 'text-neutral-800 dark:text-neutral-200 text-xl',
 	bg: 'bg-neutral-100 dark:bg-neutral-800',
 	grad1:
 		'bg-gradient-to-r from-neutral-300 to-bg-neutral-100 dark:from-neutral-400 dark:to-bg-neutral-950',
 	grad2:
-		'bg-gradient-to-l from-neutral-300 to-bg-neutral-100 dark:from-neutral-400 dark:to-bg-neutral-950',
+		'bg-gradient-to-l from-neutral-300 to-bg-neutral-100 dark:from-neutral-600 dark:to-bg-neutral-950',
 	hover: 'hover:bg-neutral-500 dark:hover:bg-neutral-700',
 	font: 'font-light'
 };
@@ -51,9 +51,7 @@ export const navStyle = generateStyle([
 	'm-1',
 	baseStyles.rounded,
 	baseStyles.border,
-	'border-neutral-400',
-	baseStyles.grad1,
-	'dark:border-zinc-800'
+	baseStyles.grad1
 ]);
 
 export const ulStyle = generateStyle(['flex', 'flex-row', 'gap-2', 'mt-1']);
