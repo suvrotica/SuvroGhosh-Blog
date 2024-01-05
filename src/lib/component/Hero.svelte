@@ -1,12 +1,19 @@
 <script>
-	import Carousal from './Carousal.svelte';
-	import { p_style, a_style, h1_style } from '$lib/global';
+	import Carousel from '$lib/component/Carousal.svelte';
+	import {
+		sectionStyle,
+		divContainerStyle,
+		divContentStyle,
+		divCarouselStyle,
+		h1_style,
+		p_style,
+		a_style
+	} from '$lib/global';
 </script>
 
-# Hello World
-<section class="mb-8 bg-white dark:bg-neutral-900">
-	<div class="mx-auto grid max-w-screen-xl px-4 py-8 lg:grid-cols-12 lg:gap-8 lg:py-16 xl:gap-0">
-		<div class="mr-auto place-self-center lg:col-span-7">
+<section class={sectionStyle}>
+	<div class={divContainerStyle}>
+		<div class={divContentStyle}>
 			<h1 class={h1_style}>A Quixotic Blog</h1>
 			<p class={p_style}>
 				Although flippant, this blog is a scratchpad of thoughts, a much-sought-after extension of
@@ -21,11 +28,11 @@
 				android or an amateur, a ponderer or a pragmatist, join me in the infinite mosaic of
 				collective nonsense we can explore.
 			</p>
-			<a href="/latest-post" class={a_style}> Latest Post </a>
-			<a href="/about-me" class={a_style}> About Me </a>
+			<a href="/latest-post" class={a_style}>Latest Post</a>
+			<a href="/about-me" class={a_style}>About Me</a>
 		</div>
-		<div class="display:block lg:col-span-5 lg:mt-0 lg:flex">
-			<Carousal />
+		<div class={divCarouselStyle}>
+			<Carousel />
 		</div>
 	</div>
 </section>

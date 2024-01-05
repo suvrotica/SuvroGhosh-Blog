@@ -1,24 +1,163 @@
 import { dev } from '$app/environment';
-export const svgStyle =
-	'my-2 -mr-2  h-auto w-[150px] rounded-sm bg-neutral-100 p-0 shadow-md dark:shadow-lg shadow-neutral-600 dark:shadow-neutral-600 ';
-export const navStyle =
-	'flex flex-row justify-between m-1  rounded-md border-2 border-neutral-400  bg-gradient-to-r dark:from-neutral-400 dark:to-bg-neutral-950 from-neutral-300 to-bg-neutral-100  dark:border-zinc-800 ';
-export const ulStyle = 'flex flex-row gap-2 mt-1 ';
-export const btnClass =
-	'text-white dark:text-gray-400 bg-gray-100 dark:bg-gray-800 hover:bg-gray-100 dark:hover:bg-gray-700 rounded-lg text-sm border-2 border-neutral-400 dark:border-neutral-600   px-2 py-2 mx-2 my-auto';
-export const text_bg_color_style =
-	'font-light text-neutral-500 hover:text-neutral-600 dark:text-neutral-400 dark:hover:text-neutral-300 bg-neutral-100 hover:bg-neutral-500 dark:bg-neutral-950 dark:hover:bg-neutral-900';
-export const preStyle =
-	'text-md my-auto rounded-md dark:bg-neutral-800 px-2 py-0 font-bold text-neutral-800 bg-neutral-200 dark:text-neutral-200 shadow-lg shadow-neutral-800 dark:shadow-lg dark:shadow-neutral-600';
-export const p_style =
-	'mb-6 max-w-2xl text-justify font-light text-neutral-500 md:text-lg lg:mb-8 lg:text-xl dark:text-neutral-400';
-export const a_style =
-	'inline-flex items-center justify-center rounded-md border border-neutral-300 my-3 px-1  text-center text-base font-light text-neutral-900 bg-neutral-200 dark:bg-neutral-800 hover:bg-neutral-100 focus:ring-4 focus:ring-neutral-100 dark:border-neutral-900 dark:text-white dark:hover:bg-neutral-700 dark:focus:ring-neutral-800';
-export const h1_style =
-	'mb-4 max-w-2xl text-4xl font-extrabold leading-none tracking-tight md:text-5xl xl:text-6xl dark:text-white';
-export const mode_style =
-	'mt-4 lg:mt-0 bg-neutral-500 hover:bg-neutral-600 text-white font-bold p-2 rounded w-10 h-10 flex items-center justify-center';
 
+// Define a type with an index signature for base styles.
+type BaseStyle = {
+	[key: string]: string;
+};
+
+// Base styles with an index signature
+const baseStyles: BaseStyle = {
+	shadow: 'shadow-md dark:shadow-lg',
+	rounded: 'rounded-md',
+	border: 'border-2',
+	text: 'text-neutral-800 dark:text-neutral-200 text-xl',
+	bg: 'bg-neutral-100 dark:bg-neutral-800',
+	grad1:
+		'bg-gradient-to-r from-neutral-300 to-bg-neutral-100 dark:from-neutral-400 dark:to-bg-neutral-950',
+	grad2:
+		'bg-gradient-to-l from-neutral-300 to-bg-neutral-100 dark:from-neutral-400 dark:to-bg-neutral-950',
+	hover: 'hover:bg-neutral-500 dark:hover:bg-neutral-700',
+	font: 'font-light'
+};
+
+// Functions to generate complex styles using base styles.
+function generateStyle(classes: string[]): string {
+	return classes.map((className) => baseStyles[className] ?? className).join(' ');
+}
+
+// Style strings for specific elements
+
+export const sectionStyle = generateStyle(['mb-8', baseStyles.grad2]);
+export const divContainerStyle = 'mx-auto grid  p-4 lg:grid-cols-12 lg:gap-4 ';
+export const divContentStyle = ' lg:col-span-7 mb-12';
+export const divCarouselStyle = 'display:block lg:col-span-5 lg:mt-0 lg:flex ';
+
+export const svgStyle = generateStyle([
+	'my-2',
+	'-mr-2',
+	'h-auto',
+	'w-[150px]',
+	'rounded-sm',
+	'bg-neutral-100',
+	'p-0',
+	baseStyles.shadow,
+	'shadow-neutral-600'
+]);
+
+export const navStyle = generateStyle([
+	'flex',
+	'flex-row',
+	'justify-between',
+	'm-1',
+	baseStyles.rounded,
+	baseStyles.border,
+	'border-neutral-400',
+	baseStyles.grad1,
+	'dark:border-zinc-800'
+]);
+
+export const ulStyle = generateStyle(['flex', 'flex-row', 'gap-2', 'mt-1']);
+export const btnClass = generateStyle([
+	baseStyles.text,
+	baseStyles.bg,
+	baseStyles.hover,
+	baseStyles.border,
+	baseStyles.font,
+	'rounded-lg',
+	'text-sm',
+	'border-neutral-400',
+	'dark:border-neutral-600',
+	'px-2',
+	'py-2',
+	'mx-2',
+	'my-auto'
+]);
+
+export const text_bg_color_style = generateStyle([
+	baseStyles.font,
+	'text-neutral-500',
+	'hover:text-neutral-600',
+	baseStyles.hover,
+	baseStyles.bg,
+	'dark:bg-neutral-950'
+]);
+
+export const preStyle = generateStyle([
+	'text-md',
+	'my-auto',
+	baseStyles.rounded,
+	baseStyles.bg,
+	baseStyles.text,
+	baseStyles.font,
+	'px-2',
+	'py-0',
+	'font-bold',
+	'bg-neutral-200',
+	baseStyles.shadow,
+	'shadow-neutral-800'
+]);
+
+export const p_style = generateStyle([
+	'text-justify',
+	baseStyles.text,
+	baseStyles.font,
+	'mb-6',
+	'max-w-2xl',
+	'md:text-lg',
+	'lg:mb-8',
+	'lg:text-xl'
+]);
+
+export const a_style = generateStyle([
+	'inline-flex',
+	'items-center',
+	'justify-center',
+	baseStyles.rounded,
+	baseStyles.border,
+	'px-1',
+	'text-center',
+	'text-base',
+	baseStyles.font,
+	baseStyles.text,
+	baseStyles.bg,
+	baseStyles.hover,
+	'focus:ring-4',
+	'focus:ring-neutral-100',
+	'dark:border-neutral-900',
+	'dark:hover:bg-neutral-700',
+	'dark:focus:ring-neutral-800',
+	'my-3'
+]);
+
+export const h1_style = generateStyle([
+	'mb-4',
+	'max-w-2xl',
+	'text-4xl',
+	'font-extrabold',
+	'leading-none',
+	'tracking-tight',
+	'md:text-5xl',
+	'xl:text-6xl',
+	'dark:text-white'
+]);
+
+export const mode_style = generateStyle([
+	'mt-4',
+	'lg:mt-0',
+	baseStyles.bg,
+	baseStyles.hover,
+	'text-white',
+	'font-bold',
+	'p-2',
+	baseStyles.rounded,
+	'w-10',
+	'h-10',
+	'flex',
+	'items-center',
+	'justify-center'
+]);
+
+// Metadata
 export const title = 'Suvro Ghosh Blog | Satire | Technology Insights & Expert Opinions';
 export const description =
 	"Join Suvro Ghosh's journey through the evolving landscape of technology. This blog offers a blend of detailed tech tutorials, industry trend analyses, and personal stories, providing a unique view from a tech expert's lens. Stay ahead of the curve with insights into the latest developments and thoughtful perspectives on tech's impact in everyday life. Perfect for tech enthusiasts, professionals, and learners alike.";
