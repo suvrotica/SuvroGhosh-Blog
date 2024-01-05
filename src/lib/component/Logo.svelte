@@ -7,9 +7,9 @@
 		<svg
 			version="1.0"
 			xmlns="http://www.w3.org/2000/svg"
-			width="500.000000pt"
-			height="120.000000pt"
-			viewBox="370 0 350.000000 153.000000"
+			width="300.000000pt"
+			height="70.000000pt"
+			viewBox="190 50 670.000000 70.000000"
 			class={svgStyle}
 		>
 			<g
