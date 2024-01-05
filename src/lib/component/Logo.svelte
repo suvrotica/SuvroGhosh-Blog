@@ -8,10 +8,11 @@
 			version="1.0"
 			xmlns="http://www.w3.org/2000/svg"
 			width="300.000000pt"
-			height="70.000000pt"
-			viewBox="190 50 670.000000 70.000000"
+			height="50.000000pt"
+			viewBox="190 50 670.000000 45.000000"
 			class={svgStyle}
 		>
+			<rect x="190" y="0" width="670" height="170" fill="#DDD" />
 			<g
 				transform="translate(0.000000,153.000000) scale(0.100000,-0.100000)"
 				fill="#000000"
