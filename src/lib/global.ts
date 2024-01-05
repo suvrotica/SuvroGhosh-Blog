@@ -7,10 +7,16 @@ type BaseStyle = {
 
 // Base styles with an index signature
 const baseStyles: BaseStyle = {
-	shadow: 'shadow-md dark:shadow-lg shadow-neutral-800',
+	padmar: 'p-2 m-2 ',
+	shadowTop:
+		'shadow-[0_4px_6px_-1px_rgba(0,0,0,0.1),0_2px_4px_-2px_rgba(0,0,0,0.1)] p-4 bg-white rounded-lg',
+
+	shadow: 'shadow-lg dark:shadow-lg dark:shadow-neutral-900 shadow-neutral-800',
+	image:
+		'bg-blend-multiply m-auto  bg-cover bg-center float-none rounded-lg  md:float-right  md:w-1/3',
 	rounded: 'rounded-md',
-	border: 'border-[1px] border-neutral-400 dark:border-neutral-800',
-	text: 'text-neutral-800 dark:text-neutral-100 text-thin text-sm',
+	border: 'border-[1px] border-neutral-400 dark:border-neutral-600',
+	text: 'text-neutral-800 dark:text-neutral-100 text-sm',
 	bg: 'bg-neutral-100 dark:bg-neutral-800',
 	grad1:
 		'bg-gradient-to-r from-neutral-300 to-bg-neutral-100 dark:from-neutral-400 dark:to-bg-neutral-950',
@@ -27,11 +33,18 @@ function generateStyle(classes: string[]): string {
 
 // Style strings for specific elements
 
-export const sectionStyle = generateStyle(['mb-8', baseStyles.grad2]);
+export const sectionStyle = generateStyle([
+	'mb-8',
+	'clearfix',
+	'overflow-auto',
+	baseStyles.padmar,
+	baseStyles.grad2
+]);
 export const divContainerStyle = 'mx-auto grid  p-4 lg:grid-cols-12 lg:gap-4 ';
 export const divContentStyle = ' lg:col-span-7 mb-12';
 export const divCarouselStyle = 'display:block lg:col-span-5 lg:mt-0 lg:flex ';
 
+export const imgStyle = generateStyle(['mx-2', baseStyles.image, baseStyles.shadowTop]);
 export const svgStyle = generateStyle([
 	'my-2',
 	'-mr-2',
@@ -92,12 +105,11 @@ export const preStyle = generateStyle([
 	baseStyles.shadow
 ]);
 
-export const p_style = generateStyle([
+export const pStyle = generateStyle([
 	'text-justify',
 	baseStyles.text,
 	baseStyles.font,
-	'p-2',
-	'm-2',
+	baseStyles.padmar,
 	'md:text-base'
 ]);
 

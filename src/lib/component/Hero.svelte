@@ -6,7 +6,7 @@
 		divContentStyle,
 		divCarouselStyle,
 		h1_style,
-		p_style,
+		pStyle,
 		a_style
 	} from '$lib/global';
 </script>
@@ -15,7 +15,7 @@
 	<div class={divContainerStyle}>
 		<div class={divContentStyle}>
 			<h1 class={h1_style}>A Quixotic Blog</h1>
-			<p class={p_style}>
+			<p class={pStyle}>
 				Although flippant, this blog is a scratchpad of thoughts, a much-sought-after extension of
 				my embarrassing tangle of nerves, unrelated fancies and figments strewn around and rattling
 				loose in it, collectibles from the waste basket scraps that should have seen a shredder, or,
