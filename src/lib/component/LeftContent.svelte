@@ -23,7 +23,7 @@
 	];
 </script>
 
-<div class="clearfix overflow-auto">
+<section class="clearfix mx-2 overflow-auto">
 	<img
 		class="float-none m-2 rounded-xl p-2 md:float-right md:w-1/3"
 		src="https://wqz50k0spm0gyalr.public.blob.vercel-storage.com/6684ce33-a0b2-4e90-9617-57685f0f66d8-pxbfqBNH8FKkpohiJPpSTY8PwqFirL.webp"
@@ -53,4 +53,4 @@
 		you're a seasoned simulationist or a curious commoner, an android or an amateur, a ponderer or a
 		pragmatist, join me in the infinite mosaic of collective nonsense we can explore.
 	</p>
-</div>
+</section>
