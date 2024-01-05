@@ -96,8 +96,9 @@ export const p_style = generateStyle([
 	'text-justify',
 	baseStyles.text,
 	baseStyles.font,
+	'p-2',
 	'mb-6',
-	'max-w-2xl',
+
 	'md:text-lg',
 	'lg:mb-8',
 	'lg:text-xl'
