@@ -12,16 +12,15 @@ const baseStyles: BaseStyle = {
 		'shadow-[0_4px_6px_-1px_rgba(0,0,0,0.1),0_2px_4px_-2px_rgba(0,0,0,0.1)] p-4 bg-white rounded-lg',
 
 	shadow: 'shadow-lg dark:shadow-lg dark:shadow-neutral-900 shadow-neutral-800',
-	image:
-		'bg-blend-multiply m-auto p-[2px] bg-cover bg-center float-none rounded-lg  md:float-right  md:w-1/3',
+	image: ' m-auto p-[2px] bg-cover bg-center float-none rounded-lg  md:float-right  md:w-1/3',
 	rounded: 'rounded-md',
 	border: 'border-[1px] border-neutral-400 dark:border-neutral-600',
-	text: 'text-neutral-950 dark:text-neutral-100 text-sm',
+	text: 'text-black dark:text-neutral-100 text-base',
 	bg: 'bg-neutral-100 dark:bg-neutral-800',
 	grad1:
 		'bg-gradient-to-r from-neutral-300 to-bg-neutral-100 dark:from-neutral-400 dark:to-bg-neutral-950',
 	grad2:
-		'bg-gradient-to-l from-neutral-300 to-bg-neutral-100 dark:from-neutral-800 dark:to-bg-neutral-950',
+		'bg-gradient-to-l from-neutral-300 to-bg-neutral-100 dark:from-neutral-950 dark:to-bg-neutral-700',
 	hover: 'hover:bg-neutral-500 dark:hover:bg-neutral-700',
 	font: 'font-thin'
 };
@@ -116,8 +115,7 @@ export const pStyle = generateStyle([
 	'text-justify',
 	baseStyles.text,
 	baseStyles.font,
-	baseStyles.padmar,
-	'md:text-base'
+	baseStyles.padmar
 ]);
 
 export const a_style = generateStyle([
