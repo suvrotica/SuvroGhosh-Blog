@@ -45,7 +45,13 @@ export const divContainerStyle = 'mx-auto grid  p-4 lg:grid-cols-12 lg:gap-4 ';
 export const divContentStyle = ' lg:col-span-7 mb-12';
 export const divCarouselStyle = 'display:block lg:col-span-5 lg:mt-0 lg:flex ';
 
-export const imgStyle = generateStyle(['ml-2', 'mr-4', baseStyles.image, baseStyles.shadowTop]);
+export const imgStyle = generateStyle([
+	'ml-2',
+	'mr-4',
+	'my-2',
+	baseStyles.image,
+	baseStyles.shadowTop
+]);
 export const svgStyle = generateStyle([
 	'my-2',
 	'-mr-2',
