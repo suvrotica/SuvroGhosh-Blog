@@ -33,7 +33,7 @@ function generateStyle(classes: string[]): string {
 // Style strings for specific elements
 
 export const sectionStyle = generateStyle([
-	'pb-8',
+	'pb-6',
 	'pr-4',
 	'clearfix',
 	'overflow-x-hidden',
