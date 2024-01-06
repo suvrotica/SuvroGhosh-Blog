@@ -162,10 +162,9 @@ export const h4Style = generateStyle([
 ]);
 
 export const h6Style = generateStyle([
-	baseStyles.padmar,
 	'mb-2', // Smaller margin-bottom than h1
 	'max-w-xl', // Max-width can be smaller for h4
-	'text-base', // Smaller text size
+	'text-sm', // Smaller text size
 	'font-bold', // Bold but not as heavy as extrabold
 	'leading-tight', // Tighter line leading
 	'tracking-normal', // Normal tracking
