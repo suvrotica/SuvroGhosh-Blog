@@ -13,7 +13,7 @@ const baseStyles: BaseStyle = {
 
 	shadow: 'shadow-lg dark:shadow-lg dark:shadow-neutral-900 shadow-neutral-800',
 	image:
-		'bg-blend-multiply m-auto  bg-cover bg-center float-none rounded-lg  md:float-right  md:w-1/3',
+		'bg-blend-multiply m-auto p-1  bg-cover bg-center float-none rounded-lg  md:float-right  md:w-1/3',
 	rounded: 'rounded-md',
 	border: 'border-[1px] border-neutral-400 dark:border-neutral-600',
 	text: 'text-neutral-800 dark:text-neutral-100 text-sm',
@@ -21,9 +21,9 @@ const baseStyles: BaseStyle = {
 	grad1:
 		'bg-gradient-to-r from-neutral-300 to-bg-neutral-100 dark:from-neutral-400 dark:to-bg-neutral-950',
 	grad2:
-		'bg-gradient-to-l from-neutral-300 to-bg-neutral-100 dark:from-neutral-600 dark:to-bg-neutral-950',
+		'bg-gradient-to-l from-neutral-300 to-bg-neutral-100 dark:from-neutral-800 dark:to-bg-neutral-950',
 	hover: 'hover:bg-neutral-500 dark:hover:bg-neutral-700',
-	font: 'font-light'
+	font: 'font-thin'
 };
 
 // Functions to generate complex styles using base styles.
@@ -35,6 +35,7 @@ function generateStyle(classes: string[]): string {
 
 export const sectionStyle = generateStyle([
 	'mb-8',
+	'mr-4',
 	'clearfix',
 	'overflow-auto',
 	baseStyles.padmar,
