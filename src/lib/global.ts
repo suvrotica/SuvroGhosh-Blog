@@ -138,7 +138,8 @@ export const a_style = generateStyle([
 	'my-3'
 ]);
 
-export const h1_style = generateStyle([
+export const h1Style = generateStyle([
+	baseStyles.padmar,
 	'mb-4',
 	'max-w-2xl',
 	'text-4xl',

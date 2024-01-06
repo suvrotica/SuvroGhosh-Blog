@@ -1,5 +1,5 @@
 <script>
-	import { sectionStyle, pStyle, imgStyle } from '$lib/global';
+	import { sectionStyle, pStyle, imgStyle, h1Style } from '$lib/global';
 </script>
 
 <section class={sectionStyle}>
@@ -8,6 +8,7 @@
 		src="https://wqz50k0spm0gyalr.public.blob.vercel-storage.com/6684ce33-a0b2-4e90-9617-57685f0f66d8-pxbfqBNH8FKkpohiJPpSTY8PwqFirL.webp"
 		alt="flower"
 	/>
+	<h1 class={h1Style}>A Quixotic Blog</h1>
 	<p class={pStyle}>
 		Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate cupiditate cum vero
 		corporis, maiores pariatur amet, laudantium porro ullam aperiam sint deserunt rerum quidem

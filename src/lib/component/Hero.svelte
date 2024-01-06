@@ -5,7 +5,7 @@
 		divContainerStyle,
 		divContentStyle,
 		divCarouselStyle,
-		h1_style,
+		h1Style,
 		pStyle,
 		a_style
 	} from '$lib/global';
@@ -14,7 +14,7 @@
 <section class={sectionStyle}>
 	<div class={divContainerStyle}>
 		<div class={divContentStyle}>
-			<h1 class={h1_style}>A Quixotic Blog</h1>
+			<h1 class={h1Style}>A Quixotic Blog</h1>
 			<p class={pStyle}>
 				Although flippant, this blog is a scratchpad of thoughts, a much-sought-after extension of
 				my embarrassing tangle of nerves, unrelated fancies and figments strewn around and rattling
