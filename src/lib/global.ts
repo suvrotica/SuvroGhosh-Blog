@@ -22,7 +22,7 @@ const baseStyles: BaseStyle = {
 	grad2:
 		'bg-gradient-to-l from-neutral-300 to-bg-neutral-100 dark:from-neutral-950 dark:to-bg-neutral-700',
 	hover: 'hover:bg-neutral-500 dark:hover:bg-neutral-700',
-	font: 'font-light'
+	font: 'font-light dark:font-thin'
 };
 
 // Functions to generate complex styles using base styles.
