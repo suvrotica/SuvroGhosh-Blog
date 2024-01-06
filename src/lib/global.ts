@@ -37,7 +37,7 @@ export const sectionStyle = generateStyle([
 	'mb-8',
 	'mr-4',
 	'clearfix',
-	'overflow-auto',
+	'overflow-x-hidden',
 	baseStyles.padmar,
 	baseStyles.grad2
 ]);
