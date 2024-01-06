@@ -125,7 +125,7 @@ export const a_style = generateStyle([
 	'px-1',
 	baseStyles.font,
 	baseStyles.text,
-	baseStyles.grad1,
+	baseStyles.grad2,
 	baseStyles.hover,
 	baseStyles.border,
 	'focus:ring-4',
