@@ -13,7 +13,7 @@ const baseStyles: BaseStyle = {
 
 	shadow: 'shadow-lg dark:shadow-lg dark:shadow-neutral-900 shadow-neutral-800',
 	image:
-		'bg-blend-multiply m-auto p-1  bg-cover bg-center float-none rounded-lg  md:float-right  md:w-1/3',
+		'bg-blend-multiply m-auto p-[2px] bg-cover bg-center float-none rounded-lg  md:float-right  md:w-1/3',
 	rounded: 'rounded-md',
 	border: 'border-[1px] border-neutral-400 dark:border-neutral-600',
 	text: 'text-neutral-800 dark:text-neutral-100 text-sm',
