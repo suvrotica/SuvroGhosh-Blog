@@ -161,6 +161,18 @@ export const h4Style = generateStyle([
 	'dark:text-white' // Preserving dark mode text color
 ]);
 
+export const h6Style = generateStyle([
+	baseStyles.padmar,
+	'mb-2', // Smaller margin-bottom than h1
+	'max-w-xl', // Max-width can be smaller for h4
+	'text-base', // Smaller text size
+	'font-bold', // Bold but not as heavy as extrabold
+	'leading-tight', // Tighter line leading
+	'tracking-normal', // Normal tracking
+
+	'dark:text-white' // Preserving dark mode text color
+]);
+
 export const mode_style = generateStyle([
 	'mt-4',
 	'lg:mt-0',
