@@ -34,10 +34,9 @@ function generateStyle(classes: string[]): string {
 
 export const sectionStyle = generateStyle([
 	'mb-8',
-	'mr-4',
+	'pr-4',
 	'clearfix',
 	'overflow-x-hidden',
-	baseStyles.padmar,
 	baseStyles.grad2
 ]);
 export const divContainerStyle = 'mx-auto grid  p-4 lg:grid-cols-12 lg:gap-4 ';
