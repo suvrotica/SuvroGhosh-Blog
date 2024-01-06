@@ -16,7 +16,7 @@ const baseStyles: BaseStyle = {
 		'bg-blend-multiply m-auto p-[2px] bg-cover bg-center float-none rounded-lg  md:float-right  md:w-1/3',
 	rounded: 'rounded-md',
 	border: 'border-[1px] border-neutral-400 dark:border-neutral-600',
-	text: 'text-neutral-800 dark:text-neutral-100 text-sm',
+	text: 'text-neutral-950 dark:text-neutral-100 text-sm',
 	bg: 'bg-neutral-100 dark:bg-neutral-800',
 	grad1:
 		'bg-gradient-to-r from-neutral-300 to-bg-neutral-100 dark:from-neutral-400 dark:to-bg-neutral-950',
