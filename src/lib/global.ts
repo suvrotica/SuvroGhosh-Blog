@@ -9,7 +9,7 @@ type BaseStyle = {
 const baseStyles: BaseStyle = {
 	padmar: 'p-2 m-2 ',
 	shadowTop:
-		'shadow-[0_4px_6px_-1px_rgba(0,0,0,0.1),0_2px_4px_-2px_rgba(0,0,0,0.1)] p-4 bg-white rounded-lg',
+		'shadow-[0_4px_6px_-1px_rgba(0,0,0,0.6),0_2px_4px_-2px_rgba(0,0,0,0.1)] p-2 dark:shadow-[0_8px_6px_-1px_rgba(255,255,255,0.2),0_2px_2px_-4px_rgba(255,255,255,0.1)] bg-white dark:bg-neutral-200 rounded-lg dark:rounded-lg',
 
 	shadow: 'shadow-lg dark:shadow-lg dark:shadow-neutral-900 shadow-neutral-800',
 	image: ' m-auto p-[2px] bg-cover bg-center float-none rounded-lg  md:float-right  md:w-1/3',
