@@ -1,6 +1,7 @@
 <script lang="ts">
 	import { fade } from 'svelte/transition';
 	import { Img } from 'flowbite-svelte';
+	import { sectionStyle, pStyle, imgStyle, h1Style } from '$lib/global';
 	const images = [
 		'https://wqz50k0spm0gyalr.public.blob.vercel-storage.com/pic1-HXbEj2b27fe27ZWisKCBVKsuahm9zo.png',
 		'https://wqz50k0spm0gyalr.public.blob.vercel-storage.com/pic2-zHOvTA5yt5xxYte3mEtElM85RjUlXy.png',
@@ -21,11 +22,11 @@
 	};
 </script>
 
-<div class="carousel-container relative w-full">
+<div class={sectionStyle}>
 	<!-- Adjust width and height as needed -->
 	{#each images as image, index}
 		<li
-			class="carousel-image"
+			class="clearfix -mr-4 -mt-6 overflow-x-hidden bg-neutral-300"
 			class:hidden={index !== currentIndex}
 			in:fade={{ duration: 300 }}
 			out:fade={{ duration: 300 }}
@@ -34,14 +35,14 @@
 		</li>
 	{/each}
 </div>
-
+<!-- 
 <style>
 	.carousel-image {
-		position: absolute;
-		top: 0;
-		left: 0;
-		width: 100%;
-		height: 100%;
-		object-fit: cover;
+		/* position: absolute; */
+		/* top: 0; */
+		/* left: 0; */
+		/* width: 100%; */
+		/* height: 100%; */
+		/* object-fit: cover; */
 	}
-</style>
+</style> -->

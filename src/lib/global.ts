@@ -33,11 +33,12 @@ function generateStyle(classes: string[]): string {
 // Style strings for specific elements
 
 export const sectionStyle = generateStyle([
-	'mb-8',
+	'pb-8',
 	'pr-4',
 	'clearfix',
 	'overflow-x-hidden',
-	baseStyles.grad2
+	baseStyles.grad2,
+	baseStyles.rounded
 ]);
 export const divContainerStyle = 'mx-auto grid  p-4 lg:grid-cols-12 lg:gap-4 ';
 export const divContentStyle = ' lg:col-span-7 mb-12';
