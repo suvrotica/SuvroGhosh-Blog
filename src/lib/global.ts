@@ -18,7 +18,7 @@ const baseStyles: BaseStyle = {
 	text: 'text-black dark:text-neutral-100 text-base',
 	bg: 'bg-neutral-100 dark:bg-neutral-800',
 	grad1:
-		'bg-gradient-to-r from-neutral-300 to-bg-neutral-100 dark:from-neutral-400 dark:to-bg-neutral-950',
+		'bg-gradient-to-r from-neutral-300 to-bg-neutral-100 dark:from-neutral-700 dark:to-bg-neutral-950',
 	grad2:
 		'bg-gradient-to-l from-neutral-300 to-bg-neutral-100 dark:from-neutral-950 dark:to-bg-neutral-700',
 	hover: 'hover:bg-neutral-500 dark:hover:bg-neutral-700',
@@ -37,7 +37,7 @@ export const sectionStyle = generateStyle([
 	'pr-4',
 	'clearfix',
 	'overflow-x-hidden',
-	baseStyles.grad2,
+	baseStyles.grad1,
 	baseStyles.rounded
 ]);
 export const divContainerStyle = 'mx-auto grid  p-4 lg:grid-cols-12 lg:gap-4 ';
@@ -126,7 +126,7 @@ export const a_style = generateStyle([
 	'px-1',
 	baseStyles.font,
 	baseStyles.text,
-	baseStyles.grad2,
+	baseStyles.grad1,
 	baseStyles.hover,
 	baseStyles.border,
 	'focus:ring-4',
