@@ -46,7 +46,7 @@ export const divCarouselStyle = 'display:block lg:col-span-5 lg:mt-0 lg:flex ';
 export const imgStyle = generateStyle([
 	'ml-2',
 	'mr-4',
-	'my-2',
+	'mt-2',
 	baseStyles.image,
 	baseStyles.shadowTop
 ]);
