@@ -193,3 +193,47 @@ export const title = 'Suvro Ghosh Blog | Satire | Technology Insights & Expert O
 export const description =
 	"Join Suvro Ghosh's journey through the evolving landscape of technology. This blog offers a blend of detailed tech tutorials, industry trend analyses, and personal stories, providing a unique view from a tech expert's lens. Stay ahead of the curve with insights into the latest developments and thoughtful perspectives on tech's impact in everyday life. Perfect for tech enthusiasts, professionals, and learners alike.";
 export const url = dev ? 'http://localhost:5173/' : 'https://suvroghosh.blog/';
+
+export type Post = {
+	id: number;
+	title: string;
+	content: string;
+	image_url: string;
+	tag_set: string;
+	created_at: Date;
+	slug: string;
+};
+
+export const emojis: { [key: number]: string } = {
+	// Informational responses
+	100: 'ℹ️', // Continue
+	101: '🔄', // Switching Protocols
+
+	// Successful responses
+	200: '✅', // OK
+	201: '🆕', // Created
+	202: '👍', // Accepted
+	204: '🚫', // No Content
+
+	// Redirection messages
+	301: '🔀', // Moved Permanently
+	302: '➡️', // Found
+	307: '🔁', // Temporary Redirect
+
+	// Client error responses
+	400: '🚫', // Bad Request
+	401: '🔒', // Unauthorized
+	403: '⛔', // Forbidden
+	404: '❓', // Not Found
+	408: '⏳', // Request Timeout
+	418: '🫖', // I'm a teapot
+	420: '🫠', // Enhance Your Calm (Twitter)
+	429: '🚦', // Too Many Requests
+
+	// Server error responses
+	500: '💥', // Internal Server Error
+	501: '❗', // Not Implemented
+	502: '🚧', // Bad Gateway
+	503: '🔧', // Service Unavailable
+	504: '⏱️' // Gateway Timeout
+};

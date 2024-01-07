@@ -15,8 +15,23 @@ export async function GET(): Promise<Response> {
 		// Execute a SQL query using the connected client.
 		// The query selects various fields from the 'blog_posts' table and orders them by 'created_at' in descending order.
 		// The result of the query is stored in the 'rows' variable.
-		const { rows } =
-			await client.sql`SELECT id, title, tag_set, image_url, created_at FROM blog_posts ORDER BY created_at DESC`;
+		const { rows } = await client.sql`
+		SELECT
+    trimmed_tag AS tag,
+    json_agg(json_build_object('title', title, 'slug', slug)) AS posts
+FROM (
+    SELECT
+        UNNEST(string_to_array(tag_set, ',')) AS original_tag,
+        TRIM(UNNEST(string_to_array(tag_set, ','))) AS trimmed_tag, -- Trimming whitespace from each tag
+        title,
+        slug
+    FROM
+        blog_posts
+) sub
+GROUP BY
+    trimmed_tag;
+
+		`;
 
 		// Return a JSON response containing the queried rows.
 		// The 'json' function takes the data to be sent as JSON and automatically sets the appropriate headers.

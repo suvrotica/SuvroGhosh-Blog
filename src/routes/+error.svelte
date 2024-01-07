@@ -1,6 +1,6 @@
 <script lang="ts">
 	import { page } from '$app/stores';
-	import { emojis } from '$lib/emojis.js';
+	import { emojis } from '$lib/global';
 </script>
 
 <section class="bg-white dark:bg-neutral-900">
