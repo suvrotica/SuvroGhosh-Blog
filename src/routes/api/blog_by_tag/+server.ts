@@ -16,20 +16,20 @@ export async function GET(): Promise<Response> {
 		// The query selects various fields from the 'blog_posts' table and orders them by 'created_at' in descending order.
 		// The result of the query is stored in the 'rows' variable.
 		const { rows } = await client.sql`
-		SELECT
-    trimmed_tag AS tag,
-    json_agg(json_build_object('title', title, 'slug', slug)) AS posts
-FROM (
-    SELECT
-        UNNEST(string_to_array(tag_set, ',')) AS original_tag,
-        TRIM(UNNEST(string_to_array(tag_set, ','))) AS trimmed_tag, -- Trimming whitespace from each tag
-        title,
-        slug
-    FROM
-        blog_posts
-) sub
-GROUP BY
-    trimmed_tag;
+		SELECT 
+		trimmed_tag AS tag,
+		json_agg(json_build_object('title', title, 'slug', slug)) AS posts
+		FROM (
+			SELECT
+			UNNEST(string_to_array(tag_set, ',')) AS original_tag,
+			TRIM(UNNEST(string_to_array(tag_set, ','))) AS trimmed_tag,
+			title,
+			slug
+			
+			FROM blog_posts
+			) sub
+			GROUP BY
+			trimmed_tag;
 
 		`;
 

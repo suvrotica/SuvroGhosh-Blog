@@ -17,7 +17,7 @@ export async function GET(): Promise<Response> {
 		// The result of the query is stored in the 'rows' variable.
 
 		const { rows } =
-			await client.sql`SELECT id, title, tag_set, image_url, created_at FROM blog_posts ORDER BY created_at DESC LIMIT 5`;
+			await client.sql`SELECT id, title, tag_set, image_url, created_at FROM blog_posts ORDER BY created_at DESC `;
 
 		// Return a JSON response containing the queried rows.
 		// The 'json' function takes the data to be sent as JSON and automatically sets the appropriate headers.
