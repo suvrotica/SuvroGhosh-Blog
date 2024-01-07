@@ -133,7 +133,59 @@ export const a_style = generateStyle([
 	'focus:ring-neutral-100',
 	'dark:hover:bg-neutral-700',
 	'dark:focus:ring-neutral-800',
-	'my-3'
+	'mx-1',
+	'my-2'
+]);
+export const h2Style = generateStyle([
+	baseStyles.padmar,
+	'mb-3', // Smaller margin-bottom than h1
+	'max-w-xl', // Max-width between h1 and h4
+	'text-3xl', // Smaller text size than h1
+	'font-bold', // Bold but not as heavy as extrabold
+	'leading-tight', // Tighter line leading
+	'tracking-normal', // Normal tracking
+	'md:text-4xl', // Medium device text size
+	'lg:text-5xl', // Large device text size
+	'dark:text-white' // Preserving dark mode text color
+]);
+
+export const h3Style = generateStyle([
+	baseStyles.padmar,
+	'mb-3',
+	'max-w-lg',
+	'text-2xl',
+	'font-bold',
+	'leading-snug',
+	'tracking-normal',
+	'md:text-3xl',
+	'lg:text-4xl',
+	'dark:text-white'
+]);
+
+export const h5Style = generateStyle([
+	baseStyles.padmar,
+	'mb-2',
+	'max-w-md',
+	'text-lg',
+	'font-medium',
+	'leading-normal',
+	'tracking-normal',
+	'md:text-xl',
+	'lg:text-2xl',
+	'dark:text-white'
+]);
+
+export const h6Style = generateStyle([
+	baseStyles.padmar,
+	'mb-2',
+	'max-w-sm',
+	'text-base',
+	'font-medium',
+	'leading-normal',
+	'tracking-normal',
+	'md:text-lg',
+	'lg:text-xl',
+	'dark:text-white'
 ]);
 
 export const h1Style = generateStyle([
@@ -158,17 +210,6 @@ export const h4Style = generateStyle([
 	'tracking-normal', // Normal tracking
 	'md:text-2xl', // Medium device text size
 	'lg:text-3xl', // Large device text size
-	'dark:text-white' // Preserving dark mode text color
-]);
-
-export const h6Style = generateStyle([
-	'mb-2', // Smaller margin-bottom than h1
-	'max-w-xl', // Max-width can be smaller for h4
-	'text-sm', // Smaller text size
-	'font-bold', // Bold but not as heavy as extrabold
-	'leading-tight', // Tighter line leading
-	'tracking-normal', // Normal tracking
-
 	'dark:text-white' // Preserving dark mode text color
 ]);
 

@@ -27,9 +27,12 @@ export async function load({ params, fetch }) {
 	// console.log('tagData:', tagData);
 	// console.log('tagData.rows:', tagData.rows);
 	// console.log('tagData.rows[0]:', tagData.rows[0]);
-
+	// console.log('tagData.rows[0].posts:', tagData.rows[0].posts);
+	const posts = tagData.rows[0].posts;
+	const tagTitle = tagData.rows[0].tag;
 	// Returning the data to the page component
 	return {
-		tagData
+		posts,
+		tagTitle
 	};
 }

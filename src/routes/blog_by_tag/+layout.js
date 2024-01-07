@@ -12,7 +12,7 @@ export async function load({ fetch, params }) {
 	// Here, `fetch` is used to make an HTTP request to the 'api/blog' endpoint.
 	// This endpoint is assumed to return blog data in JSON format.
 	const res = await fetch('api/blog_by_tag');
-	console.log('param', params);
+	// console.log('param', params);
 	// Convert the response to JSON format
 	// It is assumed that the response is in JSON format, hence `res.json()` is used.
 	const resData = await res.json();

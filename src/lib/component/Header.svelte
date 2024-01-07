@@ -1,6 +1,7 @@
 <script lang="ts">
 	import { navStyle, ulStyle, a_style, btnClass } from '$lib/global';
 	import Logo from './Logo.svelte';
+	import NavTag from './NavTAG.svelte';
 	import { DarkMode } from 'flowbite-svelte';
 </script>
 
@@ -20,3 +21,4 @@
 
 	<DarkMode {btnClass} />
 </nav>
+<NavTag />
