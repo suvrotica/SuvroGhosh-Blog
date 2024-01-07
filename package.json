@@ -16,6 +16,7 @@
 		"@sveltejs/kit": "^2.0.0",
 		"@sveltejs/vite-plugin-svelte": "^3.0.0",
 		"@types/eslint": "8.56.0",
+		"@types/prismjs": "^1.26.3",
 		"@typescript-eslint/eslint-plugin": "^6.0.0",
 		"@typescript-eslint/parser": "^6.0.0",
 		"@vercel/node": "^3.0.15",
@@ -45,6 +46,8 @@
 	"type": "module",
 	"dependencies": {
 		"@sveltejs/adapter-vercel": "^4.0.4",
-		"@vercel/postgres": "^0.5.1"
+		"@vercel/postgres": "^0.5.1",
+		"marked": "^11.1.1",
+		"prismjs": "^1.29.0"
 	}
 }

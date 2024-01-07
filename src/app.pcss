@@ -6,4 +6,10 @@
 	h1 {
 		@apply mb-4 max-w-2xl text-4xl font-extrabold leading-none tracking-tight md:text-5xl xl:text-6xl dark:text-white;
 	}
+	p {
+		@apply text-justify;
+		@apply text-base text-black dark:text-neutral-100; /* Assuming this is what baseStyles.text applies */
+		@apply font-light dark:font-thin; /* Assuming this is what baseStyles.font applies */
+		@apply m-2 p-2; /* Assuming this is what baseStyles.padmar applies */
+	}
 }
