@@ -13,7 +13,7 @@
 				<!-- Update these sections as per your blog's content -->
 				<div>
 					<h2 class="mb-6 text-sm font-semibold uppercase text-neutral-900 dark:text-white">
-						Blog Categories
+						Categories
 					</h2>
 					<ul class="text-neutral-600 dark:text-neutral-400">
 						<li class="mb-4">
@@ -26,7 +26,7 @@
 				</div>
 				<div>
 					<h2 class="mb-6 text-sm font-semibold uppercase text-neutral-900 dark:text-white">
-						...and more
+						Unsorted
 					</h2>
 					<ul class="text-neutral-600 dark:text-neutral-400">
 						<li class="mb-4">
@@ -34,6 +34,9 @@
 						</li>
 						<li>
 							<a href="/tag-Image" class="hover:underline">Image</a>
+						</li>
+						<li>
+							<a href="/tag-Limerick" class="hover:underline">Limerick</a>
 						</li>
 					</ul>
 				</div>
