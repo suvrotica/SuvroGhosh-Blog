@@ -20,7 +20,9 @@
 							<a href="/tag-Web%20Development" class="hover:underline">Web Dev</a>
 						</li>
 						<li>
-							<a href="/category/lifestyle" class="hover:underline">Lifestyle</a>
+							<a href="/https://www.suvroghosh.blog/tag-Philosophy" class="hover:underline"
+								>Philosophy</a
+							>
 						</li>
 					</ul>
 				</div>
