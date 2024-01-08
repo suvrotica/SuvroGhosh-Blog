@@ -17,7 +17,7 @@
 					</h2>
 					<ul class="text-neutral-600 dark:text-neutral-400">
 						<li class="mb-4">
-							<a href="/category/technology" class="hover:underline">Technology</a>
+							<a href="/tag-Web%20Development" class="hover:underline">Web Dev</a>
 						</li>
 						<li>
 							<a href="/category/lifestyle" class="hover:underline">Lifestyle</a>
