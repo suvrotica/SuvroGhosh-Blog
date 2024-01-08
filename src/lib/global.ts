@@ -44,9 +44,14 @@ export const sectionStyle = generateStyle([
 	baseStyles.grad1,
 	baseStyles.rounded
 ]);
-export const divContainerStyle = 'mx-auto grid  p-4 lg:grid-cols-12 lg:gap-4 ';
-export const divContentStyle = ' lg:col-span-7 mb-12';
-export const divCarouselStyle = 'display:block lg:col-span-5 lg:mt-0 lg:flex ';
+// export const divContainerStyle = 'mx-auto grid  p-4 lg:grid-cols-12 lg:gap-4 ';
+// export const divContentStyle = ' lg:col-span-7 mb-12';
+// export const divCarouselStyle = 'display:block lg:col-span-5 lg:mt-0 lg:flex ';
+// export const divCarouselStyle = 'flex flex-row-reverse lg:col-span-5 lg:mt-0';
+export const divContainerStyle =
+	'mx-auto flex flex-col-reverse p-4 lg:grid lg:grid-cols-12 lg:gap-4';
+export const divContentStyle = 'mb-12 lg:col-span-7';
+export const divCarouselStyle = 'lg:col-span-5 lg:mt-0';
 
 export const imgStyle = generateStyle([
 	'ml-2',
