@@ -17,6 +17,8 @@ const baseStyles: BaseStyle = {
 	border: 'border-[1px] border-neutral-400 dark:border-neutral-600',
 	text: 'text-black dark:text-neutral-100 text-base',
 	bg: 'bg-neutral-100 dark:bg-neutral-800',
+	bg2: 'bg-neutral-100 dark:bg-neutral-950',
+
 	grad1:
 		'bg-gradient-to-r from-neutral-300 to-bg-neutral-100 dark:from-neutral-700 dark:to-bg-neutral-950',
 	grad2:
@@ -88,7 +90,8 @@ export const footStyle = generateStyle([
 	'bottom-0 ',
 	baseStyles.rounded,
 	baseStyles.border,
-	baseStyles.grad1
+	// baseStyles.
+	baseStyles.bg2
 ]);
 
 export const ulStyle = generateStyle(['flex', 'flex-row', 'gap-2', 'mt-[2px]']);
