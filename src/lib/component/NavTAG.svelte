@@ -16,7 +16,7 @@
 	});
 </script>
 
-<nav>
+<nav class="mt-2">
 	{#each tags as tag}
 		<a href={`/tag-${encodeURIComponent(tag)}`} class={a_style}>
 			{tag}
