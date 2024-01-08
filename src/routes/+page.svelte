@@ -6,6 +6,4 @@
 	import RightContent from '$lib/component/RightContent.svelte';
 </script>
 
-<RightContent />
-<LeftContent />
-<!-- <Hero /> -->
+<Hero />
