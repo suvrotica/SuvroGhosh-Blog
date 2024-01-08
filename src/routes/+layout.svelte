@@ -3,7 +3,7 @@
 	import Footer from '$lib/component/Footer.svelte';
 	import { title, description } from '$lib/global';
 	import Header from '$lib/component/Header.svelte';
-	
+	import Foot from '$lib/component/Foot.svelte';
 </script>
 
 <svelte:head>
@@ -17,6 +17,5 @@
 	<Header />
 
 	<slot />
-	<Footer />
+	<Foot />
 </main>
-
