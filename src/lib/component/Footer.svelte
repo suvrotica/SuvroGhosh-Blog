@@ -20,22 +20,20 @@
 							<a href="/tag-Web%20Development" class="hover:underline">Web Dev</a>
 						</li>
 						<li>
-							<a href="/https://www.suvroghosh.blog/tag-Philosophy" class="hover:underline"
-								>Philosophy</a
-							>
+							<a href="/tag-Philosophy" class="hover:underline">Philosophy</a>
 						</li>
 					</ul>
 				</div>
 				<div>
 					<h2 class="mb-6 text-sm font-semibold uppercase text-neutral-900 dark:text-white">
-						Stay Connected
+						...and more
 					</h2>
 					<ul class="text-neutral-600 dark:text-neutral-400">
 						<li class="mb-4">
-							<a href="https://twitter.com/yourhandle" class="hover:underline">Twitter</a>
+							<a href="/tag-Essay" class="hover:underline">Essay</a>
 						</li>
 						<li>
-							<a href="https://instagram.com/yourhandle" class="hover:underline">Instagram</a>
+							<a href="/tag-Image" class="hover:underline">Image</a>
 						</li>
 					</ul>
 				</div>
@@ -45,10 +43,10 @@
 					</h2>
 					<ul class="text-neutral-600 dark:text-neutral-400">
 						<li class="mb-4">
-							<a href="/about" class="hover:underline">About Me</a>
+							<a href="/tag-Blog" class="hover:underline">About this blog</a>
 						</li>
 						<li>
-							<a href="/contact" class="hover:underline">Contact</a>
+							<a href="/tag-Business" class="hover:underline">Business</a>
 						</li>
 					</ul>
 				</div>
