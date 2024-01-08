@@ -20,7 +20,7 @@
 							<a href="/tag-Web%20Development" class="hover:underline">Web Dev</a>
 						</li>
 						<li class="mb-1">
-							<a href="/tag-Philosophy" class="hover:underline">Philosophy</a>
+							<a href="/tag-AI" class="hover:underline">AI</a>
 						</li>
 					</ul>
 				</div>
@@ -42,7 +42,7 @@
 				</div>
 				<div>
 					<h2 class="mb-6 text-sm font-semibold uppercase text-neutral-900 dark:text-white">
-						Useful Links
+						Useful
 					</h2>
 					<ul class="text-neutral-600 dark:text-neutral-400">
 						<li class="mb-1">
