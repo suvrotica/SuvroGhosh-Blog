@@ -7,7 +7,7 @@ type BaseStyle = {
 
 // Base styles with an index signature
 const baseStyles: BaseStyle = {
-	padmar: 'p-2 m-2 ',
+	padmar: 'p-[2px] m-[2px] ',
 	shadowTop:
 		'shadow-[0_4px_6px_-1px_rgba(0,0,0,0.6),0_2px_4px_-2px_rgba(0,0,0,0.1)] p-2 dark:shadow-[0_8px_6px_-1px_rgba(255,255,255,0.2),0_2px_2px_-4px_rgba(255,255,255,0.1)] bg-white dark:bg-neutral-200 rounded-lg dark:rounded-lg',
 
@@ -34,7 +34,9 @@ function generateStyle(classes: string[]): string {
 
 export const sectionStyle = generateStyle([
 	'pb-6',
-	'pr-4',
+	// 'pr-4',
+	'm-[2px]',
+
 	'clearfix',
 	'overflow-x-hidden',
 	baseStyles.grad1,
@@ -47,12 +49,12 @@ export const divCarouselStyle = 'display:block lg:col-span-5 lg:mt-0 lg:flex ';
 export const imgStyle = generateStyle([
 	'ml-2',
 	'mr-4',
-	'mt-2',
+	'mt-[2px]',
 	baseStyles.image,
 	baseStyles.shadowTop
 ]);
 export const svgStyle = generateStyle([
-	'my-2',
+	'my-[2px]',
 	'-mr-2',
 	'h-auto',
 	'w-[150px]',
@@ -66,7 +68,7 @@ export const navStyle = generateStyle([
 	'flex',
 	'flex-row',
 	'justify-between',
-	'm-1',
+	'm-[2px]',
 	'fixed',
 	'inset-x-0',
 	'top-0',
@@ -80,7 +82,7 @@ export const footStyle = generateStyle([
 	'flex',
 	'flex-row',
 	'justify-between',
-	'm-1',
+	'm-[2px]',
 	'fixed',
 	'inset-x-0',
 	'bottom-0 ',
@@ -89,7 +91,7 @@ export const footStyle = generateStyle([
 	baseStyles.grad1
 ]);
 
-export const ulStyle = generateStyle(['flex', 'flex-row', 'gap-2', 'mt-1']);
+export const ulStyle = generateStyle(['flex', 'flex-row', 'gap-2', 'mt-[2px]']);
 export const btnClass = generateStyle([
 	baseStyles.text,
 	baseStyles.bg,
