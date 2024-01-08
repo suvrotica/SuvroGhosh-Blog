@@ -5,14 +5,14 @@
 <footer class="bg-white p-4 sm:p-6 dark:bg-neutral-800">
 	<div class="mx-auto max-w-screen-xl">
 		<div class="md:flex md:justify-between">
-			<div class="mb-6 md:mb-0">
+			<div class="mb-1 md:mb-0">
 				<Logo />
 				<!-- Your blog's logo -->
 			</div>
 			<div class="grid grid-cols-2 gap-8 sm:grid-cols-3 sm:gap-6">
 				<!-- Update these sections as per your blog's content -->
 				<div>
-					<h2 class="mb-6 text-sm font-semibold uppercase text-neutral-900 dark:text-white">
+					<h2 class="mb-1 text-sm font-semibold uppercase text-neutral-900 dark:text-white">
 						Categories
 					</h2>
 					<ul class="text-neutral-600 dark:text-neutral-400">
@@ -28,7 +28,7 @@
 					</ul>
 				</div>
 				<div>
-					<h2 class="mb-6 text-sm font-semibold uppercase text-neutral-900 dark:text-white">
+					<h2 class="mb-1 text-sm font-semibold uppercase text-neutral-900 dark:text-white">
 						Unsorted
 					</h2>
 					<ul class="text-neutral-600 dark:text-neutral-400">
@@ -44,12 +44,12 @@
 					</ul>
 				</div>
 				<div>
-					<h2 class="mb-6 text-sm font-semibold uppercase text-neutral-900 dark:text-white">
+					<h2 class="mb-1 text-sm font-semibold uppercase text-neutral-900 dark:text-white">
 						Useful
 					</h2>
 					<ul class="text-neutral-600 dark:text-neutral-400">
 						<li class="mb-1">
-							<a href="/tag-Blog" class="hover:underline">About this blog</a>
+							<a href="/tag-Blog" class="hover:underline">About me</a>
 						</li>
 						<li class="mb-1">
 							<a href="/tag-Business" class="hover:underline">Business</a>
