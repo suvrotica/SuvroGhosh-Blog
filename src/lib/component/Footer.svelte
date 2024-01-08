@@ -22,6 +22,9 @@
 						<li class="mb-1">
 							<a href="/tag-AI" class="hover:underline">AI</a>
 						</li>
+						<li class="mb-1">
+							<a href="/tag-Philosophy" class="hover:underline">Philosophy</a>
+						</li>
 					</ul>
 				</div>
 				<div>
