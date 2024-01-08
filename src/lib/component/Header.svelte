@@ -14,7 +14,7 @@
 			<a href="/" class={`${a_style}`}>Home</a>
 		</li>
 		<li>
-			<a href="/blog" class={`${a_style}`}>Blog</a>
+			<a href="/tag-Blog" class={`${a_style}`}>About</a>
 		</li>
 	</ul>
 	<!-- Theme Toggle Button -->
