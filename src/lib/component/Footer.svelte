@@ -16,10 +16,10 @@
 						Categories
 					</h2>
 					<ul class="text-neutral-600 dark:text-neutral-400">
-						<li class="mb-4">
+						<li class="mb-1">
 							<a href="/tag-Web%20Development" class="hover:underline">Web Dev</a>
 						</li>
-						<li>
+						<li class="mb-1">
 							<a href="/tag-Philosophy" class="hover:underline">Philosophy</a>
 						</li>
 					</ul>
@@ -29,13 +29,13 @@
 						Unsorted
 					</h2>
 					<ul class="text-neutral-600 dark:text-neutral-400">
-						<li class="mb-4">
+						<li class="mb-1">
 							<a href="/tag-Essay" class="hover:underline">Essay</a>
 						</li>
-						<li>
+						<li class="mb-1">
 							<a href="/tag-Image" class="hover:underline">Image</a>
 						</li>
-						<li>
+						<li class="mb-1">
 							<a href="/tag-Limerick" class="hover:underline">Limerick</a>
 						</li>
 					</ul>
@@ -45,13 +45,13 @@
 						Useful Links
 					</h2>
 					<ul class="text-neutral-600 dark:text-neutral-400">
-						<li class="mb-4">
+						<li class="mb-1">
 							<a href="/tag-Blog" class="hover:underline">About this blog</a>
 						</li>
-						<li>
+						<li class="mb-1">
 							<a href="/tag-Business" class="hover:underline">Business</a>
 						</li>
-						<li>
+						<li class="mb-1">
 							<a href="/tag-Bioscience" class="hover:underline">Bioscience</a>
 						</li>
 					</ul>
