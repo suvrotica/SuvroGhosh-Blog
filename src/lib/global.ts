@@ -67,6 +67,23 @@ export const navStyle = generateStyle([
 	'flex-row',
 	'justify-between',
 	'm-1',
+	'fixed',
+	'inset-x-0',
+	'top-0',
+	'z-50',
+	baseStyles.rounded,
+	baseStyles.border,
+	baseStyles.grad1
+]);
+
+export const footStyle = generateStyle([
+	'flex',
+	'flex-row',
+	'justify-between',
+	'm-1',
+	'fixed',
+	'inset-x-0',
+	'bottom-0 ',
 	baseStyles.rounded,
 	baseStyles.border,
 	baseStyles.grad1

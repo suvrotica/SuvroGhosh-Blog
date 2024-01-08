@@ -1,8 +1,9 @@
 <script>
 	import Logo from './Logo.svelte';
+	import { footStyle } from '$lib/global';
 </script>
 
-<footer class="flex flex-row items-center justify-between">
+<footer class={footStyle}>
 	<Logo />
 	<span class="pr-2 text-xs text-neutral-500 sm:text-center md:text-sm dark:text-neutral-400">
 		💩
