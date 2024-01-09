@@ -7,7 +7,7 @@ export async function load({ params, fetch }) {
 	const baseUrl = import.meta.env.BASE_URL || ''; // Ensure this is set in your project's environment configuration
 	// console.log('baseUrl:', baseUrl);
 	// console.log('encodeURIComponent(tag):', encodeURIComponent(tag));
-	const url = `${baseUrl}api/blog_by_tag/${encodeURIComponent(tag)}`;
+	const url = `${baseUrl}api/post_by_tag/${encodeURIComponent(tag)}`;
 	// console.log('url:', url);
 
 	// Fetching data from the API
