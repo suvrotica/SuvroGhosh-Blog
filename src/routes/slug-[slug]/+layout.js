@@ -10,7 +10,7 @@ export async function load({ params, fetch }) {
 	const url = `${baseUrl}api/post/${encodeURIComponent(slug)}`;
 	// console.log('url:', url);
 
-	// Fetching data from the API
+	// Fetching data from API
 	const response = await fetch(url);
 
 	// Check if the fetch was successful
