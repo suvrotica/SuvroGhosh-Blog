@@ -24,10 +24,15 @@ export async function GET(): Promise<Response> {
 		// Return a JSON response containing the queried rows.
 		// The 'json' function takes the data to be sent as JSON and automatically sets the appropriate headers.
 		return json({ rows });
-	} catch (error) {
-		// In case of an error (e.g., query failure, database connection issue), return a JSON response with the error.
-		// The status code is set to 500, indicating an internal server error.
-		return json({ error }, { status: 500 });
+	} catch (error: unknown) {
+		if (error instanceof Error) {
+			console.error('Error:', error.message);
+			return json({ error: error.message }, { status: 500 });
+		} else {
+			// Handle the case where error is not an instance of Error
+			console.error('An unexpected error occurred:', error);
+			return json({ error: 'An unexpected error occurred' }, { status: 500 });
+		}
 	}
 	//When using the @vercel/postgres SDK with the db method to connect to your PostgreSQL database, Vercel automatically manages connections for you. This means you do not need to explicitly close the connection using a finally block or any other method. The SDK handles the connection management, making it more efficient and suitable for serverless environments where connection pooling and optimal resource usage are crucial.
 }
