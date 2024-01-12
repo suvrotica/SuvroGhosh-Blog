@@ -1,6 +1,5 @@
 <script lang="ts">
 	import { fade } from 'svelte/transition';
-	import { Img } from 'flowbite-svelte';
 	import { sectionStyle, pStyle, imgStyle, h1Style } from '$lib/global';
 	const images = [
 		'https://wqz50k0spm0gyalr.public.blob.vercel-storage.com/pic1-HXbEj2b27fe27ZWisKCBVKsuahm9zo.png',
@@ -31,7 +30,7 @@
 			in:fade={{ duration: 300 }}
 			out:fade={{ duration: 300 }}
 		>
-			<Img src={image} alt={`Image ${index}`} />
+			<img src={image} alt={`Image ${index}`} />
 		</li>
 	{/each}
 </div>

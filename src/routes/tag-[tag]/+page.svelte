@@ -2,10 +2,15 @@
 	// @ts-nocheck
 	export let data;
 
-	import { h1Style, a_style } from '$lib/global';
+	import { a_style } from '$lib/global';
 </script>
 
-<h1 class={h1Style}>Posts Tagged: "{data?.tagTitle}"</h1>
+<h1 class="first-letter:text-blue-500">
+	<span class="m-0 p-0"
+		>{data.tagTitle.substring(0, 1).toUpperCase()}{data.tagTitle.substring(1)}</span
+	>
+</h1>
+<hr />
 {#each data?.posts as post}
 	<a href={`/slug-${encodeURIComponent(post.slug)}`} class={a_style}>
 		{post.title}

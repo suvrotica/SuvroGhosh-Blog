@@ -51,7 +51,7 @@ export const sectionStyle = generateStyle([
 export const divContainerStyle =
 	'mx-auto flex flex-col-reverse p-4 lg:grid lg:grid-cols-12 lg:gap-4';
 export const divContentStyle = 'mb-12 lg:col-span-7';
-export const divCarouselStyle = 'lg:col-span-5 lg:mt-0';
+export const divCarouselStyle = 'lg:col-span-5 mb-12 lg:mt-0';
 
 export const imgStyle = generateStyle([
 	'ml-2',

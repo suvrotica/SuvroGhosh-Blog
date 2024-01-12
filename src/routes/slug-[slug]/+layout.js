@@ -7,10 +7,10 @@ export async function load({ params, fetch }) {
 	const baseUrl = import.meta.env.BASE_URL || ''; // Ensure this is set in your project's environment configuration
 	// console.log('baseUrl:', baseUrl);
 	// console.log('encodeURIComponent(slug):', encodeURIComponent(slug));
-	const url = `${baseUrl}api/blog/${encodeURIComponent(slug)}`;
+	const url = `${baseUrl}api/post/${encodeURIComponent(slug)}`;
 	// console.log('url:', url);
 
-	// Fetching data from the API
+	// Fetching data from API
 	const response = await fetch(url);
 
 	// Check if the fetch was successful
