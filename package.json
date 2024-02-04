@@ -3,6 +3,8 @@
 	"version": "0.0.1",
 	"private": true,
 	"scripts": {
+		"preinstall": "npm run clean:esbuild",
+		"clean:esbuild": "rm -rf ./node_modules/esbuild || true",
 		"dev": "vite dev",
 		"build": "vite build",
 		"preview": "vite preview",
