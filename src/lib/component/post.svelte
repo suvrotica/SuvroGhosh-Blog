@@ -13,7 +13,6 @@
 		replace42picWithFigure,
 		replace42picWithFigureL,
 		replace42picWithFigureR,
-		replace4bWithBreak,
 		replace42tableWithHTMLTable,
 		replace42cWithHighlight,
 		replaceNewLineWithBreak,
