@@ -29,7 +29,6 @@
 	newBlogContent = replace42picWithFigureL(newBlogContent);
 	newBlogContent = replace42picWithFigure(newBlogContent);
 	newBlogContent = replace42brWithBreak(newBlogContent);
-	newBlogContent = replace4bWithBreak(newBlogContent);
 	newBlogContent = replace42tableWithHTMLTable(newBlogContent);
 	newBlogContent = replace42lblWithLabel(newBlogContent);
 </script>
