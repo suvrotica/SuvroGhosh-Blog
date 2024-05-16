@@ -89,6 +89,7 @@ export const footStyle = generateStyle([
 	'flex',
 	'flex-row',
 	'justify-between',
+	'mt-8',
 	'm-[2px]',
 	'fixed',
 	'inset-x-0',
