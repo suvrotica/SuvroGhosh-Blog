@@ -11,10 +11,10 @@
 	<title>{title}</title>
 	<meta name="description" content={description} />
 </svelte:head>
-
+<!-- 
 <main>
 	<Header />
 
 	<slot />
 	<Foot />
-</main>
+</main> -->
